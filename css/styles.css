@@ -1,0 +1,142 @@
+/* Custom CSS by Cheryl Wittmann */
+
+/* Interesting note. * selects all in css3....wow */
+
+
+body {
+  background-color: #03d3fc;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
+
+}
+
+
+nav {
+  width: 99%;
+  background-color: #333;
+}
+
+
+main {
+    width: 97%;
+}
+
+article {
+width: 97%
+margin: 0 auto;
+}
+
+article h2{
+  font-size: 1.7em;
+  color: #fefefe;
+  text-align: center;
+}
+
+article p {
+  font-size: 1.02em;
+  color: #fefefe;
+}
+
+/* CSS to customize navigation */
+
+.topnav {
+  overflow: hidden;
+ }
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+ .topnav-right {
+  float: right;
+}
+
+.topnav-right h2{
+  padding: 10px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+/* Image Section */
+     
+.camera_wrap {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#myOverlay {
+
+  color: #ffffff;
+  background-color: rgba(12,12,12,0.82);
+  padding: 20px;
+  position: absolute;
+  top: 10px;
+}
+
+ /* Whats a website without a clearfix hack? For me its one with a broken footer */      
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Footer */
+
+ footer {
+    width: 100%;
+    border-top: solid 2px grey;
+    margin-top: 10px;
+
+}
+
+footer ul{
+    margin-left: -40px;
+}
+
+footer ul li {
+    display: inline; 
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footerLeft {
+    float: left;
+    margin: 20px 0 0 20px;
+    
+}
+
+#footerLeft ul li {
+  display:inline;
+  font-size: small;
+  font-color: #fefefe;
+  list-style: none;
+  margin: 3px;
+  padding-right: 10px;
+  border-right: 1px solid white;
+
+    }
+
+#footerRight {
+    color: #fff;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+     
+}
